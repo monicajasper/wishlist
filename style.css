@@ -1,0 +1,203 @@
+/*
+CSS3
+Author: Monica Jasper
+Date: April 2023
+Updated: June 2023
+
+*/
+
+:root{
+  /*variables*/
+  --color-purple: #777;
+  --color-teal: #EEE;
+  --color-dkpurp: #550077;
+  --color-dkblue: #004F97;
+  --color-gray: #CCC;
+  --font-header: "Josefin Sans", sans-serif;
+  }  
+    
+  *
+  {
+    margin: 0; /*handles 100% width problem in welcome-section*/
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html
+  {
+    font-family: var(--font-header);
+    background-color: var(--color-teal);
+  }
+  
+  body
+  {
+    min-height: 150vh;
+  }
+  
+  /*Navigation Bar*/
+  #navbar
+  {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    padding: 1em 2em;
+    font-family: var(--font-header);
+    font-size: 1.2em;
+    background: linear-gradient(170deg, var(--color-teal) 60%, var(--color-dkblue));
+    box-shadow: 1px 2px 2px rgba(50, 50, 50, 0.5);
+  }
+  
+  nav li
+  {
+    display: inline;
+    text-transform: uppercase;
+    padding: 1em;
+    font: black;
+  }
+  
+  a
+  {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:visited, .project-name:visited
+  {
+    text-decoration: none;
+    font: black;  
+  }
+  
+  a:hover, .project-tile .project-name:hover
+  {
+    color: var(--color-gray);
+  }
+  
+  /*About*/
+  #sobre
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0px;
+    background-color: var(--color-purple);
+  }
+  
+  #sobre p
+  {
+    font-family: var(--font-header);
+    margin: 1.2em auto 1em auto;
+    text-align: center;
+    font-size: 1.6em;
+    line-height: 1.5em;
+    max-width: 350px;
+  }
+  
+  h1,h2,li
+  {
+    font-family: var(--font-header);
+  }
+  
+  h1
+  {
+    font-size: 50px;
+    text-align: center;
+    line-height: 28px;
+  }
+  
+  h2
+  {
+    font-size: 32px;
+    margin-bottom: 0.8em;
+  }
+  
+  /*Projects*/
+  #projects
+  {
+    text-align: center;
+    margin: 2em auto;
+  }
+  
+  .project-grid
+  {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 3em;
+    width: 100%;
+    max-width: 90vw;
+    margin: 0 auto;
+    margin-bottom: 2em;
+  }
+  
+  .project-tile
+  {
+    margin: auto auto;
+    background-color: var(--color-purple);
+    font-family: var(--font-header);
+    font: black;
+    box-shadow: 1px 1px 2px rgba(100, 100, 100, 0.8);
+    border: solid black 0.5px;
+    border-radius: 10px;
+  
+  }
+  
+  .project-image
+  {
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .project-tile .project-name
+  {
+    color: black;
+    margin: 0.7em auto;
+    font-size: 1.2em;
+  }
+  
+  .code {
+    color: var(--color-purple);
+    transition: color 0.3s ease-out;
+  }
+  
+  .project-tile:hover .code
+  {
+    color: var(--color-teal);
+  }
+  
+  /*Contact*/
+  #contact
+  {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-items: center;
+    background: linear-gradient(190deg, var(--color-purple) 60%, var(--color-dkpurp));
+  
+    padding-top: 2em;
+  }
+  
+  .contact-logo
+  {
+    width: 3em;
+    margin: 0em 1em 3em 1em;
+  }
+  
+  footer
+  {
+    display: none;
+  }
+  
+  @media(max-height: 320px)
+  { 
+    #welcome-section p
+    {
+      display: none;
+    }
+  }  
