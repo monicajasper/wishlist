@@ -8,8 +8,8 @@ Updated: June 2023
 
 :root{
   /*variables*/
-  --color-purple: #777;
-  --color-teal: #EEE;
+  --color-purple: hsl(270, 17%, 50%);
+  --color-white: #EEE;
   --color-dkpurp: #550077;
   --color-dkblue: #004F97;
   --color-gray: #CCC;
@@ -116,13 +116,13 @@ Updated: June 2023
   }
   
   /*Projects*/
-  #projects
+  #items
   {
     text-align: center;
     margin: 2em auto;
   }
   
-  .project-grid
+  .item-grid
   {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -133,7 +133,7 @@ Updated: June 2023
     margin-bottom: 2em;
   }
   
-  .project-tile
+  .item-tile
   {
     margin: auto auto;
     background-color: var(--color-purple);
@@ -145,7 +145,7 @@ Updated: June 2023
   
   }
   
-  .project-image
+  .item-image
   {
     width: 100%;
     object-fit: cover;
@@ -166,28 +166,11 @@ Updated: June 2023
     transition: color 0.3s ease-out;
   }
   
-  .project-tile:hover .code
+  .item-tile:hover .code
   {
     color: var(--color-teal);
   }
   
-  /*Contact*/
-  #contact
-  {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-items: center;
-    background: linear-gradient(190deg, var(--color-purple) 60%, var(--color-dkpurp));
-  
-    padding-top: 2em;
-  }
-  
-  .contact-logo
-  {
-    width: 3em;
-    margin: 0em 1em 3em 1em;
-  }
   
   footer
   {
