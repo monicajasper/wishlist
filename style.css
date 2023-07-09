@@ -103,7 +103,7 @@ Updated: July 2023
   {
     display: in-line
     text-align: left;
-    margin: 2em auto 2em 4em;
+    margin: 2em auto;
   }
 
 
@@ -113,54 +113,16 @@ Updated: July 2023
     font-family: var(--font-header);
   }
   
-  h1
-  {
-    font-size: 50px;
-    text-align: center;
-    line-height: 28px;
-  }
-  
-  h2
+  h1,h2
   {
     font-size: 32px;
+    text-align: center;
     margin-bottom: 0.8em;
     color: var(--color-dkblue);
   }
   
-
-  /*.item-grid
-  {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 3em;
-    width: 100%;
-    max-width: 90vw;
-    margin: 0 auto;
-    margin-bottom: 2em;
-  }
   
-  .item-tile
-  {
-    margin: auto auto;
-    background-color: var(--color-purple);
-    font-family: var(--font-header);
-    font: black;
-    box-shadow: 1px 1px 2px rgba(100, 100, 100, 0.8);
-    border: solid black 0.5px;
-    border-radius: 10px;
-  }
-  
-
-  .item-image
-  {
-    width: 100%;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
-  }
-*/
-  
+  /*
   .project-tile .project-name
   {
     color: black;
@@ -177,7 +139,7 @@ Updated: July 2023
   {
     color: var(--color-teal);
   }
-  
+  */
   
   footer
   {
