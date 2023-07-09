@@ -134,7 +134,7 @@ Updated: June 2023
     margin: 2em auto 2em 4em;
   }
   
-  .item-grid
+  /*.item-grid
   {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -154,9 +154,9 @@ Updated: June 2023
     box-shadow: 1px 1px 2px rgba(100, 100, 100, 0.8);
     border: solid black 0.5px;
     border-radius: 10px;
-  
   }
-  
+  */
+
   .item-image
   {
     width: 100%;
