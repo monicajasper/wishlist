@@ -130,8 +130,8 @@ Updated: June 2023
   /*Items*/
   #items
   {
-    text-align: center;
-    margin: 2em auto;
+    text-align: left;
+    margin: 2em auto 2em 4em;
   }
   
   .item-grid
