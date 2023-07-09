@@ -85,7 +85,7 @@ Updated: July 2023
     width: 100%;
     padding: 0px;
   }
-  
+
   #sobre p
   {
     font-family: var(--font-header);
@@ -96,6 +96,18 @@ Updated: July 2023
     margin: 1.2em auto 1em auto;
   }
   
+
+
+  /*Items*/
+  #ropa, #casa, #aficiones, #dinero, #otra
+  {
+    display: in-line
+    text-align: left;
+    margin: 2em auto 2em 4em;
+  }
+
+
+
   h1,h2,li
   {
     font-family: var(--font-header);
@@ -116,24 +128,6 @@ Updated: July 2023
   }
   
 
- #sobre
-  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
-    padding: 0px;
-  }
-
-  /*Items*/
-  #ropa, #casa, #aficiones, #dinero, #otra
-  {
-    display: in-line
-    text-align: left;
-    margin: 2em auto 2em 4em;
-  }
-  
   /*.item-grid
   {
     display: grid;
