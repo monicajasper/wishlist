@@ -127,8 +127,9 @@ Updated: July 2023
   }
 
   /*Items*/
-  #items
+  #ropa, #casa, #aficiones, #dinero, #otra
   {
+    display: in-line
     text-align: left;
     margin: 2em auto 2em 4em;
   }
