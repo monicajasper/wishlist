@@ -43,7 +43,7 @@ Updated: July 2023
     top: 0px;
     right: 0px;
     width: 100%;
-    padding: 0 2em;
+    padding: 1em 2em;
     font-family: var(--font-header);
     font-size: 1.2em;
     background: linear-gradient(90deg, var(--color-gray) 0%, var(--color-dkblue));
@@ -54,7 +54,7 @@ Updated: July 2023
   {
     display: inline;
     text-transform: uppercase;
-    padding: 1em;
+    padding: 0 1em 1em 1em;
     font: black;
   }
   
