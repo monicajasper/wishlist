@@ -14,6 +14,8 @@ Updated: July 2023
   --color-gray: #CCC;
   --color-dkgray: #BBB;
   --font-header: "Josefin Sans", sans-serif;
+  --color-crimon: #900;
+  --color-ltorange: #ffb700;
   }  
     
   *
@@ -130,6 +132,16 @@ Updated: July 2023
   dd
   {
     margin: 0.5em 0 0.5em 1.5em;
+  }
+
+  .desperate /*items desperately needed in the next 3 mo*/
+  {
+    color: var(--color-crimson);
+  }
+
+  .need /*items needed in the next 6 mo*/
+  {
+    color: var(--color-ltorange);
   }
 
   /*
