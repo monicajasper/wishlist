@@ -102,7 +102,7 @@ Updated: July 2023
   {
     display: in-line
     text-align: left;
-    margin: 2em auto;
+    padding: 2em auto;
   }
 
 
@@ -128,8 +128,7 @@ Updated: July 2023
 
   dd
   {
-    margin-left: 1em;
-    margin-bottom: 0.5em;
+    margin: 0.4em 0 0.4em 1.2em;
   }
 
   /*
