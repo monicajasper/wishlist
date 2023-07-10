@@ -12,7 +12,7 @@ Updated: July 2023
   --color-ltblue: #aac9d4;
   --color-dkblue: #004F97;
   --color-gray: #CCC;
-  --color-dkgray: #DDD;
+  --color-dkgray: #BBB;
   --font-header: "Josefin Sans", sans-serif;
   }  
     
@@ -62,7 +62,7 @@ Updated: July 2023
   a
   {
     text-decoration: none;
-    color: var(--color-dkblue);
+    color: var(--color-dkgray);
   }
   
   a:visited, .project-name:visited
@@ -73,7 +73,7 @@ Updated: July 2023
   
   a:hover, .project-tile .project-name:hover
   {
-    color: var(--color-dkgray);
+    color: var(--color-dkblue);
   }
   
   /*About*/
