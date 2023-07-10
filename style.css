@@ -102,7 +102,7 @@ Updated: July 2023
   {
     display: in-line
     text-align: left;
-    margin: 3em auto;
+    margin: 2em auto;
   }
 
 
@@ -119,16 +119,16 @@ Updated: July 2023
     color: var(--color-dkblue);
   }
 
-  /*dd
-  {
-    margin-left: 1em;
-  }*/
-
   #ropa ul, #casa ul, #aficiones ul, #dinero ul, #otra p
   {
     display: in-line
     text-align: left;
     margin: 2em auto 2em 4em;
+  }
+
+  dd
+  {
+    margin-left: 5em;
   }
 
   /*
