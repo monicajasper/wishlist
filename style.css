@@ -124,7 +124,7 @@ Updated: July 2023
     margin-left: 1em;
   }*/
 
-  #ropa p, #casa p, #aficiones p, #dinero p, #otra p
+  #ropa ul, #casa ul, #aficiones ul, #dinero ul, #otra p
   {
     display: in-line
     text-align: left;
