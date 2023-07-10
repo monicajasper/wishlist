@@ -102,7 +102,7 @@ Updated: July 2023
   {
     display: in-line
     text-align: left;
-    margin: 2em auto 2em 4em;
+    margin: 2em auto;
   }
 
 
@@ -123,7 +123,14 @@ Updated: July 2023
   {
     margin-left: 1em;
   }
-  
+
+  #ropa p, #casa p, #aficiones p, #dinero p, #otra p
+  {
+    display: in-line
+    text-align: left;
+    margin: 2em auto 2em 4em;
+  }
+
   /*
   .project-tile .project-name
   {
