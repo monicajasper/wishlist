@@ -62,7 +62,7 @@ Updated: July 2023
   a
   {
     text-decoration: none;
-    color: var(--color-dkgray);
+    color: var(--color-dkblue);
   }
   
   a:visited, .project-name:visited
@@ -73,7 +73,7 @@ Updated: July 2023
   
   a:hover, .project-tile .project-name:hover
   {
-    color: var(--color-dkblue);
+    color: var(--color-dkgray);
   }
   
   /*About*/
