@@ -167,6 +167,7 @@ Updated: July 2023
   {
     text-align: center;
     font-style: italic;
+    margin-top: 5em;
   }
   
   @media(max-height: 320px)
